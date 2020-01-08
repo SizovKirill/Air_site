@@ -1,0 +1,35 @@
+.reviews__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__item {
+    display: flex;
+    padding: 30px 0;
+    border-bottom: 1px solid grey;
+}
+
+.reviews__item:last-child {
+    border-bottom: none;
+}
+
+.reviews__img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.reviews__desc {
+    width: 700px;
+}
+
+.reviews__desc-date {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.reviews__desc-title {
+    font-family: roboto-bold, sans-serif;
+}

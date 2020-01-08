@@ -1,0 +1,55 @@
+.sidebar__index {
+    margin-top: 35px;
+}
+
+.sidebar__item {
+    margin-bottom: 30px;
+}
+
+.sidebar__link {
+    color: #4b73b5;
+    font-family: roboto-bold, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.sidebar__link:hover {
+    color: #000;
+}
+
+.sidebar__link:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    transition: 0.5s;
+    background: url('/img/icon/main_icon.png') center center / cover no-repeat;
+}
+
+.sidebar__link:hover:before {
+    background: url('/img/icon/main_icon_active.png') center center / cover no-repeat;
+}
+
+.sidebar__link-reviews:before {
+    width: 20px;
+    height: 18px;
+    background: url('/img/icon/feed_icon.png') center center / cover no-repeat;
+}
+
+.sidebar__link-reviews:hover:before {
+    background: url('/img/icon/feed_icon_active.png') center center / cover no-repeat;
+}
+
+.sidebar__link-team:before {
+    margin-right: 16px;
+    width: 23px;
+    height: 18px;
+    background: url('/img/icon/team_icon.png') center center / cover no-repeat;
+}
+
+.sidebar__link-team:hover:before {
+    background: url('/img/icon/team_icon_active.png') center center / cover no-repeat;
+}

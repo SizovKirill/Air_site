@@ -1,0 +1,29 @@
+.footer {
+    min-height: 75px;
+    color: #fff;
+    background-color: #4b73b5;
+}
+
+.container__footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer__block {
+    width: 33.3%;
+}
+
+.footer__block-logo {
+    text-align: center;
+}
+
+.block__author-link {
+    color: #fff;
+    font-family: roboto-bold, sans-serif;
+}
+
+.footer__block-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

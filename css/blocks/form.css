@@ -1,0 +1,165 @@
+.form__container {
+    width: 700px;
+    font-size: 14px;
+}
+
+.form {
+    background: #f5f5f5;
+    padding: 50px 10%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.block__input {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.label__title {
+    margin-bottom: 10px;
+}
+
+.label__input {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.label__input:last-child {
+    margin-right: initial;
+}
+
+.input__elem {
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 10px 15px;
+}
+
+.input__elem:focus {
+    border: 1px solid #4b73b5;
+}
+
+.block__textarea {
+    margin-bottom: 20px;
+}
+
+.input__elem-textarea {
+    resize: vertical;
+}
+
+.form__button {
+    display: flex;
+    font-family: roboto-bold, sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 15px;
+    color: #fff;
+    background-color: #4b73b5;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.form__button-text:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 15px;
+    margin-left: 10px;
+    background: url('/img/icon/form_icon.png') center center / cover no-repeat;
+}
+
+.form__button-text:active:after {
+    background: url('/img/icon/form_icon_active.png') center center / cover no-repeat;
+}
+
+.form__button:active {
+    color: #4b73b5;
+    background-color: #fff;
+}
+
+
+/* .label__social input:focus,
+.label__name input:focus,
+textarea:focus {
+    border: 1px solid #4b73b5;
+} */
+
+
+/* _____ Radio _____ */
+
+.radio__desc {
+    display: flex;
+}
+
+.radio__col {
+    width: 50%;
+}
+
+.radio__col.button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.radio__input {
+    display: flex;
+}
+
+.radio__input label {
+    width: 25%;
+}
+
+.input {
+    display: none;
+}
+
+.text {
+    position: absolute;
+    left: 30px;
+    color: black;
+}
+
+.fake {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, #ececec, #fefefe);
+    border: 1px solid #cacaca;
+    margin: 0 10px 15px 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.fake:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #4b73b5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.fake:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 1px solid #4b73b5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.input:checked+.fake:after,
+.input:checked+.fake:before,
+.input:checked+.fake .text {
+    opacity: 1;
+    color: #4b73b5;
+}

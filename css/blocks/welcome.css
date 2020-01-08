@@ -1,0 +1,128 @@
+.wrapper__index {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/img/bg/Bg_welcome.jpg') center center /cover no-repeat;
+    position: relative;
+}
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome__logo {
+    margin-bottom: 35px;
+}
+
+.welcome__link {
+    display: block;
+    padding: 10px 20px;
+    font-family: roboto-bold, sans-serif;
+    color: #4b73b5;
+    border: 2px solid #4b73b5;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+.welcome__link:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    background: url('/img/icon/form_icon_active.png');
+    margin-left: 10px;
+}
+
+.welcome__link:active {
+    background-color: #4b73b5;
+    color: #fff;
+}
+
+.welcome__link:active:after {
+    background: url('/img/icon/form_icon.png');
+}
+
+.welcome__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* animation: rotate 1s 0.5s cubic-bezier(0, .61, 1, .77); */
+    animation: rotate 1.7s cubic-bezier(.11, .11, .84, .83);
+}
+
+
+/* @keyframes bounce {
+    0% {
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+    20% {
+        transform: translateY(0);
+        opacity: .2;
+    }
+    40% {
+        transform: translateY(-50px);
+        opacity: .4;
+    }
+    60% {
+        transform: translateY(0);
+        opacity: .6;
+    }
+    80% {
+        transform: translateY(-30px);
+        opacity: .8;
+    }
+    90% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    95% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+} */
+
+@keyframes rotate {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        transform: scale(.1) rotate(-20deg);
+        opacity: .2;
+    }
+    40% {
+        transform: scale(.5) rotate(20deg);
+        opacity: .4;
+    }
+    60% {
+        transform: scale(.8) rotate(-10deg);
+        opacity: .6;
+    }
+    80% {
+        opacity: .8;
+        transform: scale(1) rotate(10deg);
+    }
+    90% {
+        opacity: 1;
+        transform: rotate(-5deg);
+    }
+    92% {
+        transform: scale(1) rotate(5deg);
+    }
+    94% {
+        transform: rotate(-2deg);
+    }
+    96% {
+        transform: rotate(2deg);
+    }
+}

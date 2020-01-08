@@ -1,0 +1,35 @@
+.title__news {
+    margin-bottom: 70px;
+}
+
+.news__item {
+    display: flex;
+    padding: 30px 0;
+    border-bottom: 1px solid grey;
+}
+
+.news__item:last-child {
+    border-bottom: none;
+}
+
+.news__img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.news__desc {
+    width: 700px;
+}
+
+.news__desc-date {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.news__desc-title {
+    font-family: roboto-bold, sans-serif;
+    margin-bottom: 20px;
+}

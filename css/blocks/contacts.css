@@ -1,0 +1,17 @@
+.contacts {
+    font-family: roboto-bold, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.contacts__phone {
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contacts__shedule-link {
+    color: #9fb4d8;
+    font-size: 14px;
+}

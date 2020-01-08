@@ -1,0 +1,24 @@
+@import "layout/fonts.css";
+@import "layout/normalize.css";
+@import "layout/settings.css";
+
+/* _____ Blocks _____ */
+
+@import "blocks/header.css";
+@import "blocks/contacts.css";
+@import "blocks/sidebar.css";
+@import "blocks/maincontent.css";
+@import "blocks/tariffs.css";
+@import "blocks/title.css";
+@import "blocks/social.css";
+@import "blocks/news.css";
+@import "blocks/pagination.css";
+@import "blocks/reviews.css";
+@import "blocks/application.css";
+@import "blocks/form.css";
+@import "blocks/partners.css";
+@import "blocks/team.css";
+@import "blocks/breadcrumbs.css";
+@import "blocks/baner.css";
+@import "blocks/welcome.css";
+@import "blocks/footer.css";

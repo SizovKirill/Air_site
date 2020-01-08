@@ -1,0 +1,19 @@
+.header {
+    min-height: 75px;
+    background-color: #4b73b5;
+    padding: 10px 0;
+    margin-bottom: 45px;
+}
+
+.header_index {
+    margin-bottom: 10px;
+}
+
+.container__header {
+    display: flex;
+    align-items: center;
+}
+
+.header__block {
+    flex: 1;
+}

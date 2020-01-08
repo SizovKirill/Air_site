@@ -1,0 +1,12 @@
+.container__maincontent {
+    display: flex;
+}
+
+.maincontent__block-sidebar {
+    width: 160px;
+    margin-right: 20px;
+}
+
+.maincontent__block-content {
+    max-width: 880px;
+}

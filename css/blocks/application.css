@@ -1,0 +1,29 @@
+.application__block {
+    min-height: 170px;
+    background: url('/img/bg/bg_application.jpg') center center /cover;
+    margin-bottom: 60px;
+}
+
+.container__application {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.application__block-desc {
+    padding: 30px;
+    max-width: 700px;
+    color: #fff;
+}
+
+.application__block-desc-link {
+    color: #fff;
+    font-family: roboto-bold, sans-serif;
+    line-height: 2;
+}
+
+.aplication__block-phone {
+    color: #fff;
+    font-family: roboto-bold, sans-serif;
+    text-decoration: none;
+}
